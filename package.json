@@ -1,0 +1,25 @@
+{
+  "name": "ticktask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ticktask": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "dotenv": "^16.5.0",
+    "inquirer": "^12.6.0",
+    "mongoose": "^8.14.0",
+    "nanoid": "^5.1.5",
+    "ora": "^8.2.0"
+  }
+}
